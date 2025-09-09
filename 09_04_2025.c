@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+#define SIZE 1024
 
 int Strlen(char *str);
 int main(){
 
-char str[] = "Hello";
-Strlen(*str);
+char str[SIZE] = "Hello";
+int len;
+
+len = Strlen(str);
+printf("%s: %d\n" , str , len);
 
 return 0;
 }
