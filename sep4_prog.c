@@ -7,4 +7,6 @@ int main(){
 
     fgets(buffer , SIZE - 1 , stdin);
     printf("input: %s" , buffer);
+
+    return 0;
 }
